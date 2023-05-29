@@ -1,0 +1,477 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: #006CFF12;
+    width: 100vw;
+    height: 80px;
+}
+
+/* ----------------------------------categoryForm starts---------------------------------- */
+.categoryForm{
+    margin-bottom: 150px;
+}
+.logoImg {
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+@media(max-width: 520px) {
+    .logoImg {
+        padding-left: 30px;
+    }
+}
+
+.uploadOptions {
+    margin: 0 auto;
+    background-color: rgb(239, 236, 236);
+    width: 83vw;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    max-width: 1300px;
+}
+
+.candidate {
+    background-color: white;
+    width: 50%;
+}
+
+.candidate div {
+    margin-right: 20px;
+}
+
+.referee {
+    background-color: white;
+    width: 49.9%;
+}
+
+.referee h2 {
+    margin-left: 30px !important;
+}
+
+.referee div {
+    margin-left: 40px;
+}
+
+.uploadOptions h2 {
+    margin-left: 20px;
+}
+
+.categoryDetails {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.categoryImg img {
+    width: 200px;
+}
+
+.refereeImg img {
+    width: 300px;
+}
+
+.categoryContent {
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.dropBox {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    border: 2px dashed #001E4640;
+    border-radius: 10px;
+}
+
+.drop-zone--over {
+    border-style: solid;
+}
+.drop-zone__prompt{
+    color: rgb(115, 113, 113);
+}
+.drop-zone__input {
+    display: none;
+}
+
+.drop-zone__thumb {
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-size: cover;
+    position: relative;
+}
+
+.drop-zone__thumb::after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 0;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    text-align: center;
+}
+
+.formDetails button {
+    color: white;
+    background-color: #006CFF;
+    width: 95%;
+    border: 0;
+    height: 40px;
+    border-radius: 16px;
+}
+.formDetails button:hover{
+    background-color: #4c91f0;
+}
+.formDetails p{
+    font-weight: bolder;
+    color: black;
+}
+
+.refereeForm input {
+    padding-left: 20px;
+    width: 85%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.refereeForm button {
+    border: 0;
+    background-color: #0CBC8B;
+    color: white;
+    width: 92%;
+    height: 40px;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+.refereeForm button:hover{
+    background-color: #36dbac;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* ----------------------------------categoryForm ends---------------------------------- */
+
+
+
+
+/* ---------------------------------aboutContainer starts------------------------------------- */
+.aboutContainer{
+    width: 87vw;
+    height: 550px;
+    margin: 0 auto;
+    background-color: #485F8310;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 250px;
+    margin-top: 300px;
+}
+.aboutInfoDiv{
+    width: 60%;
+    height: 100%;
+}
+.aboutImgDiv{
+    width: 40%;
+    height: 100%;
+}
+.aboutInfo{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.aboutInfo h2{
+    margin-bottom: 30px;
+}
+.informationAbout{
+    text-align: justify;
+    font-weight: 300;
+}
+.learnMoreBtn button{
+    border: 0;
+    background-color: #006CFF;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 4px;
+}
+.learnMoreBtn button:hover{
+    background-color: #5699f7;
+}
+.aboutImgDiv img{
+    border-top: 7.28px solid #006CFF;
+    width: 400px;
+    margin-top: -80px;
+}
+/* ---------------------------------aboutContainer ends------------------------------------- */
+
+
+
+
+
+/* -----------------------------------howItWorks starts---------------------------- */
+.howItWorks{
+    background-color: #485F8310;
+    width: 87vw;
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 800px;
+    padding-top: 40px;
+    margin-bottom: 200px;
+}
+.howIWpara p{
+    width: 830px;
+    font-weight: 300;
+}
+.howIWsteps{
+    width: 830px;
+    background-color: #E9886210;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.HIWStepsImg{
+    width: 45%;
+}
+.HIWStepsImg img{
+    width: 380px;
+    margin-top: -20px;
+    z-index: 3;
+}
+.HIWSteps{
+    width: 53%;
+}
+.stepGrp{
+    margin-left: 20px;
+    margin-bottom: 14px;
+}
+.stepGrp:nth-child(1){
+    margin-top: 35px;
+}
+.stepHeading p{
+    font-size: 17px;
+}
+.blueColorStep{
+    color: #006CFF;
+}
+.stepContent{
+    font-size: 15px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: -5px;
+    font-weight: 300;
+}
+.winTag{
+    margin-top: 60px;
+}
+.winGreen{
+    color: #0CBC8B;
+    font-size: 20px;
+}
+/* -----------------------------------howItWorks ends---------------------------- */
+
+
+
+
+
+@media(max-width: 960px){
+    .uploadOptions {
+        flex-direction: column;
+        background-color: white;
+        align-items: center;
+    }
+    .category{
+        width: 75vw;
+    }
+    .referee{
+        margin-top: 100px;
+    }
+    .aboutContainer{
+        width: 600px;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 1100px;
+        height: 700px;
+        padding-bottom: 100px;
+    }
+    .aboutImgDiv{
+        width: 100px;
+    }
+    .aboutImgDiv img{
+        width: 300px;
+    }
+    .aboutInfo{
+        width: 100%;
+    }
+    .howItWorks{
+        width: 600px;
+        padding-bottom: 300px;
+    }
+    .howIWsteps{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        height: 80%;
+        padding-bottom: 80px;
+    }
+    .howItWorks p{
+        width: 500px;
+    }
+    .HIWStepsImg{
+        width: 200px;
+    }
+    .HIWStepsImg img{
+        width: 200px;
+    }
+    .stepGrp{
+        margin-left: -50px;
+        width: 200px;
+    }
+    .stepContent p{
+        width: 400px;
+    }
+}
+
+@media(max-width: 610px){
+    .category{
+        width: 85vw;
+    }
+}
+
+@media(max-width: 600px){
+    .referee{
+        margin-top: 100px;
+    }
+    .aboutContainer{
+        width: 400px;
+    }
+    .aboutImgDiv{
+        width: 50px;
+        margin-bottom: -60px;
+    }
+    .aboutImgDiv img{
+        width: 220px;
+    }
+    .howItWorks{
+        width: 500px;
+        padding-bottom: 400px;
+    }
+    .howIWsteps{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        height: 80%;
+        padding-bottom: 80px;
+    }
+    .howItWorks p{
+        width: 370px;
+    }
+    .HIWStepsImg{
+        width: 200px;
+    }
+    .HIWStepsImg img{
+        width: 200px;
+    }
+    .stepGrp{
+        margin-left: -50px;
+        width: 200px;
+    }
+    .stepContent p{
+        width: 300px;
+        font-size: 13px;
+    }
+    .stepHeading{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 500px){
+    .aboutContainer{
+        width: 80%;
+        font-size: 13px;
+        margin-top: 1100px;
+        height: 700px;
+        padding-bottom: 100px;
+    }
+    .aboutImgDiv{
+        width: 50px;
+    }
+    .aboutImgDiv img{
+        width: 200px;
+    }
+    .aboutInfo{
+        width: 100%;
+    }
+    .howItWorks{
+        width: 80%;
+        padding-bottom: 300px;
+    }
+    .howIWsteps{
+        width: 90%;
+        height: 80%;
+        padding-bottom: 80px;
+    }
+    .howItWorks p{
+        width: 90%;
+        font-size: 13px;
+    }
+    .HIWStepsImg{
+        width: 200px;
+    }
+    .HIWStepsImg img{
+        width: 200px;
+    }
+    .stepGrp{
+        margin-left: -50px;
+        width: 200px;
+    }
+    .stepContent p{
+        width: 80%;
+    }
+}
+@media(max-width: 430px){
+    .candidate{
+        width: 100%;
+    }
+    .categoryDetails:nth-child(2){
+        margin-left: 0 !important;
+    }
+    .categoryContent{
+        font-size: 13px;
+    }
+    .refereeImg img{
+        width: 270px;
+    }
+    .aboutContainer{
+        margin-top: 1000px;
+    }
+    .aboutImgDiv img{
+        width: 170px;
+    }
+    .stepContent{
+        margin-left: 0;
+    }
+    .howItWorks p{
+        margin-top: -5px;
+    }
+}
